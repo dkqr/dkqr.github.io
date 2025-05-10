@@ -1346,9 +1346,11 @@
     --catppuccin-color-crust: #11111b;
   }
 }
+
 body {
   font-family: Montserrat;
 }
+
 @property --tw-font-weight {
   syntax: "*";
   inherits: false;
