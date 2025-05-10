@@ -1,33 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link href="styles.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <title>Dark's website !!!</title>
-    </head>
-    <body>
-        <header>
-            <nav>
-                <a href="#" class="nav-element">Home</a>
-                <a href="#" class="nav-element">Projects</a>
-                <a href="#" class="nav-element">Idk</a>
-            </nav>
-            <div class="header-content">
-                <h1>Dark</h1>
-                <p>Hiya! Welcome to my humble website !!</p>
-            </div>
-        </header>
-        <div class="main-content">
-            
+<!-- npx @tailwindcss/cli -i ./tailwind.css -o ./styles.css --watch -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;family=Roboto:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Dark's Website!!</title>
+</head>
+<body class="bg-ctp-base text-ctp-text">
+    <header>
+        <nav class="text-ctp-subtext0 flex p-2 justify-center w-full gap-5 font-medium">
+            <a href="#">HOME</a>
+            <a href="#">PROJECTS</a>
+            <a href="#">IDK</a>
+        </nav>
+        <div class="w-6xl m-auto pt-52 pb-28">
+            <h1 class="text-5xl font-bold pb-6">Dark</h1>
+            <p class="text-2xl">Hiya! Welcome to my humble website !!</p>
         </div>
-        <footer>
-            <div class="footer-content">
-                <div class="footer-ext">
-                    <a target="_blank" href="https://github.com/dkqr"><img src="github.png"></a>
-                </div>
-            </div>
-        </footer>
-    </body>
+    </header>
+    <div class="bg-ctp-mantle w-full h-[800px]"></div>
+    <footer class="bg-ctp-crust w-full h-32 flex items-center">
+        <div class="p-6">
+            <a target="_blank" href="https://github.com/dkqr"><img class="w-12 h-12" src="img/github.png"></a>
+        </div>
+    </footer>
+</body>
 </html>
